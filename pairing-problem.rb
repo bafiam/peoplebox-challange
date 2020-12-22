@@ -62,7 +62,7 @@ def pairs(weeks)
       else
         good_combo = get_uniq_given_past_weeks(all_combo, track)
         # when all combination have already been picked,
-        # clear, the track to allow dublication now
+        # clear, the track to allow repeat now
         if good_combo.empty?
           track = []
           all_combo = get_all_unique_combinations(value)
